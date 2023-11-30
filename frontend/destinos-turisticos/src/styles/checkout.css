@@ -1,0 +1,25 @@
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(160px);
+	}
+	80% {
+		transform: translateX(-16px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.section-height {
+	height: 100vh;
+}
+
+.move-in-right {
+	animation: moveInRight 1s ease-out;
+}
+
+.list-details .ul-dest {
+	color: #777;
+}

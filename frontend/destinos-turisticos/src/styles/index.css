@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	font-family: NotoSans, Arial, 'Arial Unicode MS', sans-serif;
+	box-sizing: border-box;
+
+	padding: 30px;
+}

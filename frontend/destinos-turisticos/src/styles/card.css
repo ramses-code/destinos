@@ -1,0 +1,93 @@
+.col-mb {
+	margin-bottom: 30px;
+}
+
+.cards {
+	perspective: 150rem;
+	-moz-perspective: 150rem;
+	position: relative;
+	height: 500px;
+	color: #777;
+}
+
+.card-side {
+	height: 500px;
+	transition: all 0.8s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	backface-visibility: hidden;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.front {
+	background-color: #fff;
+}
+
+.div-back {
+	text-align: center;
+	padding: 30px;
+	height: 100%;
+}
+
+.cards:hover .front {
+	transform: rotateY(-180deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+.cards:hover .back {
+	transform: rotateY(0);
+}
+
+.img * {
+	width: 100%;
+	background-size: cover;
+	height: 300px;
+	background-blend-mode: screen;
+}
+
+.list-details {
+	padding: 30px;
+}
+
+.list-details ul {
+	list-style: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.list-details ul li {
+	text-align: center;
+	padding: 10px;
+}
+
+.list-details ul li:not(:last-child) {
+	border-bottom: 1px solid #eee;
+}
+
+.button {
+	background-color: #55c57a;
+	color: #fff;
+	border-radius: 100px;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover {
+	transform: translateY(-0.3rem);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.button:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+
+.button:active {
+	transform: translateY(-0.1rem);
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}

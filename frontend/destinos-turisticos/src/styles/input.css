@@ -1,0 +1,18 @@
+.label {
+	display: block;
+	color: #777;
+}
+
+.input {
+	width: 100%;
+	outline: none;
+	border: solid 1px #eee;
+	padding: 10px 15px;
+	border-radius: 2px;
+	color: #777;
+	margin: 0 0 10px 0;
+}
+
+.error-msg {
+	color: #f00;
+}

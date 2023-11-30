@@ -1,0 +1,16 @@
+.form {
+	border-top: solid 1px #55c57a;
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.h3 {
+	background-image: linear-gradient(to right, #7ed56f, #28b485);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

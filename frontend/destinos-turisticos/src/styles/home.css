@@ -1,0 +1,37 @@
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-160px);
+	}
+	80% {
+		transform: translateX(16px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.main {
+	background-color: #f7f7f7;
+}
+
+.div-heading {
+	text-align: center;
+}
+
+.heading {
+	padding: 30px;
+	letter-spacing: 10px;
+	background-image: linear-gradient(to right, #7ed56f, #28b485);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	margin-bottom: 30px;
+}
+.move-in-left {
+	animation: moveInLeft 1s ease-out;
+}
+.row {
+	margin: 0 auto;
+}
